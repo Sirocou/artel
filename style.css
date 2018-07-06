@@ -1,0 +1,74 @@
+.container {
+	padding: 40px;
+	border: 5px dotted darkgreen;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: darkgreen;
+	margin: 40px;
+	font-weight: 300;
+}
+
+#banner {
+	margin: 20px auto;
+}
+
+section span{
+	cursor: pointer;
+	color: #087c00;
+}
+
+section span:hover {
+	cursor: pointer;
+	color: #15aa0a;
+}
+
+a {
+	color: #087c00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #15aa0a;
+	text-decoration: none;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#087c00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-icon:hover {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#15aa0a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 700px) {
+	.navbar-nav {
+		display: flex;
+		width: 100%;
+	}
+
+	.nav-item {
+		flex: 1;
+		text-align: center;
+	}
+}
+@media (max-width: 700px){
+	.container {
+		border: none;
+		padding: auto;
+		margin: auto;
+	}
+}
+
+.col-lg-2 {
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.row {
+	align-items: center;
+}
